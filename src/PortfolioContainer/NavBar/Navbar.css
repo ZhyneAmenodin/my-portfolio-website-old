@@ -1,12 +1,17 @@
+.portfolio-logo {
+  color: white;
+  font-weight: 800;
+}
+
 nav.navbar {
   padding: 10px 0;
-  position: relative;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
   background-color: #121212;
-  opacity: inherit;
+  opacity: 95%;
 }
 nav.navbar.scrolled {
   padding: 0px 0;

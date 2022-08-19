@@ -72,7 +72,7 @@
 
 .profile-picture-background:hover {
   transform: scale(1.07);
-  transition: 1s ease-out;
+  transition: 0.5s ease-in-out;
 }
 .colz .colz-icon i {
   color: white;
