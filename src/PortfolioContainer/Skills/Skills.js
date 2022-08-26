@@ -17,7 +17,6 @@ export default function Skills() {
                 <div className="col">
                   <Row>
                     <h6>HTML: </h6>
-                    <span> Intermediate</span>
                   </Row>
                 </div>
                 <div className="col">
