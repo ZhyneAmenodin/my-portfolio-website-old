@@ -10,7 +10,7 @@ export default function Skills() {
         <div className="skill-header">
           <h1>Skills</h1>
           <h4>Bellow are the list of my currents skills:</h4>
-
+          {/* 
           <Container>
             <Col>
               <div className="skill-list">
@@ -24,7 +24,14 @@ export default function Skills() {
                 </div>
               </div>
             </Col>
-          </Container>
+          </Container> */}
+          <div className="skill-list">
+            <h5>HTML: Intermediate</h5>
+            <h5>JavaScript: Intermediate</h5>
+            <h5>CSS: Intermediate</h5>
+            <h5>MySQL: Proficient</h5>
+            <h5>VueJs: Intermediate</h5>
+          </div>
         </div>
       </div>
     </div>
