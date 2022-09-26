@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../../assets/img/logo.svg";
+import logo from "../../assets/piclogo.png";
+import * as React from "react";
+import Avatar from "@mui/material/Avatar";
 import navIcon1 from "../../assets/img/nav-icon1.svg";
 import navIcon2 from "../../assets/img/nav-icon2.svg";
 import navIcon3 from "../../assets/img/nav-icon3.svg";
@@ -30,10 +32,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
-          {/* <img src={logo} alt="Logo" /> */}
-          <h1 className="portfolio-logo">Portfolio</h1>
-        </Navbar.Brand>
+        <Avatar sx={{ width: 48, height: 48 }} src={logo} />
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -66,17 +65,23 @@ export const NavBar = () => {
             >
               Projects
             </Nav.Link>
+            <Nav.Link
+              href="#AboutMe"
+              className={
+                activeLink === "skills" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("skills")}
+            >
+              About Me
+            </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/zhyne-a-amenodin-66a02a242/">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
+              <a href="https://web.facebook.com/zhyne.amenoden">
                 <img src={navIcon2} alt="" />
-              </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
               </a>
             </div>
           </span>

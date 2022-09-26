@@ -17,10 +17,10 @@ import IMG7 from "../../assets/codeIcons/Vue.png";
 import IMG8 from "../../assets/codeIcons/JS.png";
 
 const RootStyle = styled("div")(({ theme }) => ({
-  backgroundColor: "#232542",
   borderRadius: 50,
-  margin: theme.spacing(5, 10),
-  padding: theme.spacing(5, 0),
+
+  margin: theme.spacing(4, 10),
+  padding: theme.spacing(3, 0),
 }));
 
 const ContentStyle = styled("div")(({ theme }) => ({
@@ -35,7 +35,7 @@ const ContentStyle = styled("div")(({ theme }) => ({
 
 export default function Skills() {
   return (
-    <RootStyle>
+    <RootStyle id="skills">
       <Container>
         <Grid>
           <Grid item>
@@ -53,7 +53,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG1} width="200" height="200" />
+                  <img align="center" src={IMG1} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -64,7 +64,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG2} width="200" height="200" />
+                  <img align="center" src={IMG2} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -75,7 +75,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG3} width="200" height="200" />
+                  <img align="center" src={IMG3} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -86,7 +86,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG4} width="200" height="200" />
+                  <img align="center" src={IMG4} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -107,7 +107,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG5} width="200" height="200" />
+                  <img align="center" src={IMG5} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -118,7 +118,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG6} width="200" height="200" />
+                  <img align="center" src={IMG6} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -129,7 +129,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG7} width="200" height="200" />
+                  <img align="center" src={IMG7} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
@@ -140,7 +140,7 @@ export default function Skills() {
             <Grid item md={3}>
               <Card align="center" sx={{ maxHeight: 320, maxWidth: 220 }}>
                 <Grid item>
-                  <img align="center" src={IMG8} width="200" height="200" />
+                  <img align="center" src={IMG8} width="200" height="180" />
                 </Grid>
                 <Grid item direction="column">
                   <Typography variant="h6">Skill level:</Typography>
